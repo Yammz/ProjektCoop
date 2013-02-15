@@ -6,17 +6,58 @@
 	<title>Coop</title>
 </head>
 <body>
-	<div id="container">
-		<div id="header"><img src="./images/header.png"></div>
-		<div id="menu">
-			<a href="hem.html"><img id="hem" src="./images/hem.png"></a>
-			<a href="leverantor.html"><img id="lev" src="./images/leverantor.png"></a>
-			<a href="kategorier.html"><img id="kat" src="./images/kategorier.png"></a>
-			<a href="lander.html"><img id="land" src="./images/lander.png"></a>
-			<a href="konton.html"><img id="kon" src="./images/konton.png"></a>
-		</div>
-		
-	</div>	
+	<div id="header"><img src="./images/header.png"></div>
+	<div id="menu">
+		<a href="hem.html"><img id="hem" src="./images/hem.png"></a>
+		<a href="leverantor.html"><img id="lev" src="./images/leverantor.png"></a>
+		<a href="kategorier.html"><img id="kat" src="./images/kategorier.png"></a>
+		<a href="lander.html"><img id="land" src="./images/lander.png"></a>
+		<a href="konton.html"><img id="kon" src="./images/konton.png"></a>
+	</div>
+	<div id="contain">
+	<div id="revisioner">
+		<h3>Missade revisioner</h3>
+		<p>OJ 21 januari 2013</p>
+		<p>Visar alla missade</p>
 
+		<h3>Planerade revisioner</h3>
+		<p>Barnproffset 27 februari 2013</p>
+		<p>Max Max 4 juni 2013</p>
+		<p>Olivers oliver 20 december 2015</p>
+		<p>Visar de 5 narmsta</p>
+		<h3>Kommande revisioner</h3>
+		<p>Daniels Korvar 2013</p>
+		<p>Visar 3 kommande</p>
+	</div>
+	<div id="motton">
+		<script type="text/javascript">
+				var image1=new Image()
+				image1.src="./images/bilder/01.png"
+				var image2=new Image()
+				image2.src="./images/bilder/02.png"
+				var image3=new Image()
+				image3.src="./images/bilder/03.png"
+				var image4=new Image()
+				image4.src="./images/bilder/04.png"
+				</script>
+				<body>
+				<img src="./images/bilder/01.png" name="slide" width="500" height="350" />
+				<script>
+				var step=1
+				function slideit(){
+				if (!document.images)
+				return
+				document.images.slide.src=eval("image"+step+".src")
+				if (step<4)
+				step++
+				else
+				step=1
+				setTimeout("slideit()",20000)
+				}
+				slideit()
+
+		</script>
+	</div>
+</div>
 </body>
 </html>

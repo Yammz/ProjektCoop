@@ -1,7 +1,3 @@
-#container {
-	width: 100%;
-}
-
 #header {
 	width: 100%;
 	height: 120px;
@@ -9,9 +5,8 @@
 }
 
 #menu {
-	width: 100%;
+	width: 1366px;
 	height: 80px;
-	padding-left: 3px;
 }
 
 #menu * {
@@ -19,5 +14,45 @@
 	float: left;
 	width: 270px;
 	height: 42px;
-	margin-left: -3px;
+	
+}
+
+#contain {
+	position: relative;
+	width: 100%;
+}
+
+#revisioner {
+	position: relative;
+	float: left;
+	width: 400px;
+	border: 1px solid black;
+	border-radius: 40px;
+}
+
+h3 {
+	margin-left: 30px;
+}
+
+p {
+	margin-left: 50px;
+}
+
+#motton {
+		position: relative;
+		float: left;
+		width: 500px;
+		height: 350px;
+		padding: 50px;
+		margin-left: 150px;
+}
+
+#val {
+	position: relative;
+	float: left;
+	width: 400px;
+	margin-left: 35%;
+	height: 350px; 
+	border: 10px solid #f93e3f;
+	border-radius: 40px;
 }
