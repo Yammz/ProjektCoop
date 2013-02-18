@@ -101,3 +101,17 @@ p {
 	margin-top: 50px;
 	display: none;
 }
+
+.more {
+	display: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.showLink, .hideLink {
+	text-decoration: none;
+	background: transparent;
+}
+
+.hideLink {
+	background: transparent;
+}
