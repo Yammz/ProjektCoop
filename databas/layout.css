@@ -47,7 +47,7 @@ p {
 		margin-left: 150px;
 }
 
-#val {
+.ruta {
 	position: relative;
 	float: left;
 	width: 400px;
@@ -82,36 +82,22 @@ p {
 
 #konsult {
 	position: absolute;
-	margin-top: -70px;
+	margin-left: 140px;
+	margin-top: 85px;
 	width: 120px;
 	height: 50px;
-	display: none;
 }
 
 #anstalld {
 	position: absolute;
+	margin-left: 140px;
+	margin-top: 155px;
 	width: 120px;
 	height: 50px;
-	display: none;
 }
 
 #avbryt {
 	position: absolute;
-	margin-left: 30px;
-	margin-top: 50px;
-	display: none;
-}
-
-.more {
-	display: none;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
-.showLink, .hideLink {
-	text-decoration: none;
-	background: transparent;
-}
-
-.hideLink {
-	background: transparent;
+	margin-left: 170px;
+	margin-top: 250px;
 }

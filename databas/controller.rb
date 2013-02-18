@@ -15,5 +15,6 @@ end
 before 'konton.html.erb' do
 	@header = "./images/header5.png"
 end
-
-# @bilder = "./images/bilder"
+before 'skapakonto.html.erb' do
+	@header = "./images/header5.png"
+end

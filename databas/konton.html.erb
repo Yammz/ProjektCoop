@@ -1,26 +1,6 @@
-<div id="val">
+<div id="val" class="ruta">
 		<button type="button" id="visa">Visa Konton</button>
-		<button type="button" id="skapa" class="showLink" onclick="showHide('skapa');return false;">Skapa Konto</button>
-	<div id="skapa" class="more">
-		<button type="button" id="konsult" class="hideLink" onclick="showHide('skapa');return false; ">Konsult Konto</button>
-		<button type="button" id="anstalld">Anställd Konto</button>
-		<button type="button" id="avbryt">Avbryt</button>
-	</div>
-</div>
+		<a href="./skapakonto.html"><button type="button" id="skapa">Skapa Konto</button></a>
 
-<script type="text/javascript">
-function showHide(shID) {
-	if (document.getElementById(shID)) {
-		if (document.getElementById(shID+'-show').style.display != 'none') {
-			document.getElementById(shID+'-show').style.display = 'none';
-			document.getElementById(shID).style.display = 'block';
-		}
-		else {
-			document.getElementById(shID+'-show').style.display = 'inline';
-			document.getElementById(shID).style.display = 'none';
-		}
-	}
-}
-</script>
 
 <!-- http://www.cssnewbie.com/showhide-content-css-javascript/ -->
