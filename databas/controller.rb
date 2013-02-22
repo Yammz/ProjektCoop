@@ -27,3 +27,10 @@ end
 before 'anstalld.html.erb' do
 	@header = "./images/header5.png"
 end
+
+before 'inloggning.html.erb' do
+	@ignore_layout = true
+end
+before 'newuser.html.erb' do
+	@ignore_layout = true
+end
