@@ -101,3 +101,30 @@ p {
 	margin-left: 170px;
 	margin-top: 250px;
 }
+
+#tillbaka {
+	position: relative;
+	float: left;
+	margin-top: 300px;
+	margin-left: 25px;
+	width: 65px;
+
+}
+
+#avbryter {
+	position: relative;
+	float: left;
+	margin-top: 300px;
+	margin-left: 20px;
+	width: 65px;
+}
+
+#username {
+	margin-top: 70px;
+	margin-left: -50px;
+}
+
+#behorighet {
+	margin-top: 100px;
+	
+}

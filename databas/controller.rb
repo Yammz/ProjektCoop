@@ -21,3 +21,6 @@ end
 before 'visakonton.html.erb' do
 	@header = "./images/header5.png"
 end
+before 'konsult.html.erb' do
+	@header = "./images/header5.png"
+end
