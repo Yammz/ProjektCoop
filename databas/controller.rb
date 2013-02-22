@@ -24,3 +24,6 @@ end
 before 'konsult.html.erb' do
 	@header = "./images/header5.png"
 end
+before 'anstalld.html.erb' do
+	@header = "./images/header5.png"
+end

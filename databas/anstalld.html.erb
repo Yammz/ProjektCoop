@@ -1,13 +1,12 @@
-<div id="konsultkonto" class="ruta">
-	<h2><center>Konsult Konto</center></h2>
+<div id="anstalldkonto" class="ruta">
+	<h2><center>Anställd Konto</center></h2>
 	<input type="text" name="Användarnamn" placeholder="Användarnamn" id="username">
-	<div id="behorighet"><select>
-		<option value="valj">Välj leverantör</option>
-		<option value="oj">OJ</option>
-		<option value="barnproffset">Barnproffset</option>
-	</select></div>
+	<form>
+		<input type="radio" name="behorighet" value="full">Fullbehörighet</br>
+		<input type="radio" name="behorighet" value="andrar">Ändrarbehörighet</br>
+		<input type="radio" name="behorighet" value="tittar">Tittarbehörighet
+	</form> 
 	<a href="./skapakonto.html"><button type="button" class="tillbaka">Tillbaka</button></a>
 	<a href="./hem.html"><button type="button" class="avbryter">Avbryt</button></a>
-	<button type="button" id="add">+ Lägg till fler leverantörer</button>
 	<a href="./hem.html"><button type="button" class="spara" onclick="alert('Kontot är sparat')">Spara</button></a>
 </div>

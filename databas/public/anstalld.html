@@ -15,6 +15,17 @@
 		<a href="lander.html"><img id="land" src="./images/lander.png"></a>
 		<a href="konton.html"><img id="kon" src="./images/konton.png"></a>
 	</div>
-	<a href="./konton.html"><button type="button" class="tillbaka">Tillbaka</button></a>
+	<div id="anstalldkonto" class="ruta">
+	<h2><center>Anställd Konto</center></h2>
+	<input type="text" name="Användarnamn" placeholder="Användarnamn" id="username">
+	<form>
+		<input type="radio" name="behorighet" value="full">Fullbehörighet</br>
+		<input type="radio" name="behorighet" value="andrar">Ändrarbehörighet</br>
+		<input type="radio" name="behorighet" value="tittar">Tittarbehörighet
+	</form> 
+	<a href="./skapakonto.html"><button type="button" class="tillbaka">Tillbaka</button></a>
+	<a href="./hem.html"><button type="button" class="avbryter">Avbryt</button></a>
+	<a href="./hem.html"><button type="button" class="spara" onclick="alert('Kontot är sparat')">Spara</button></a>
+</div>
 </body>
 </html>
