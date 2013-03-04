@@ -222,3 +222,20 @@ li {
 #loggain {
 	margin-top: 57px;
 }
+
+#landkod {
+	margin-left: 270px;
+	margin-top: 20px;
+	width: 810px;
+	font-size: 19px;
+}
+
+.gul {
+	background-color: yellow;
+}
+
+.filtrera {
+	margin-left: 270px;
+	width: 152px;
+	height: 30px;
+}
