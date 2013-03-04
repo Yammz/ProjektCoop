@@ -202,13 +202,23 @@ li {
 }
 
 #pickpassword {
-
+	margin-top: 20px;
+	margin-left: 28%;
+	width: 169px;
 }
 
 #repeatpassword {
-
+	margin-top: 20px;
+	margin-left: 28%;
+	width: 169px;
 }
 
 #back {
-	
+	margin-top: 10px;
+	margin-left: 143px;
+	width: 110px;
+}
+
+#loggain {
+	margin-top: 57px;
 }
