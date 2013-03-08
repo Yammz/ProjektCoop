@@ -263,10 +263,6 @@ li {
 	border-radius: 15px;
 }
 
-#OJinfo {
-
-}
-
 .inaktiv {
 	background-color: lightgrey;
 	width: 270px;
@@ -285,8 +281,17 @@ li {
 	margin-left: 10px;
 }
 
-p {
+#knapp {
 	position: absolute;
 	margin-top: -30px;
 	margin-left: 250px;
+}
+
+#filtleft {
+	width: 152px;
+	height: 30px;
+}
+
+#status {
+	float: right;
 }

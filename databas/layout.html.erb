@@ -6,28 +6,15 @@
 	<meta charset="utf-8">
 	<title>oop</title>
 	<link rel="shortcut icon" href="./images/title1.png"/>
-	<script>
-	$(document).ready(function(){
-		$('#oj').hide;
-		// $("#OJ").click(function(){
-		// 	$("#OJinfo").toggle();
-
-
-		
-	});
-
-</script>
-
-
-
 </head>
 <body>
 	<% if @ignore_layout == nil %>
 
 
+	<div id="header"><img src="<%= @header %>">
+		<a href="./inloggning.html"><button type="button" id="logut">Logga ut</button></a>
+	</div>
 
-
-	<div id="header"><img src="<%= @header %>"><a href="./inloggning.html"><button type="button" id="logut">Logga ut</button></a></div>
 	<div id="menu">
 		<a href="hem.html"><img id="hem" src="./images/hem.png"></a>
 		<a href="leverantor.html"><img id="lev" src="./images/leverantor.png"></a>
