@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="jquery.js"> </script>
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	<meta charset="utf-8">
 	<title>oop</title>
 	<link rel="shortcut icon" href="./images/title1.png"/>
+	<script>
+	$(document).ready(function(){
+		$('#oj').hide;
+		// $("#OJ").click(function(){
+		// 	$("#OJinfo").toggle();
+
+
+		
+	});
+
+</script>
+
+
+
 </head>
 <body>
 	
@@ -20,7 +35,116 @@
 		<a href="lander.html"><img id="land" src="./images/lander.png"></a>
 		<a href="konton.html"><img id="kon" src="./images/konton.png"></a>
 	</div>
-	
+	<button type="button" class="filtrera">Filtrera</button>
+
+<div>
+ <script>
+ 	$(document).ready(function(){
+ 		$('#OJinfo').hide();
+ 		$('p').click(function() {
+ 			$('#OJinfo').toggle();
+ 		});
+ 	});
+
+ </script>
+
+<div id="OJ" class="aktiv">
+	<h2 class="levnamn">OJ</h2> <p>+</p>
+</div>
+
+<div id="OJinfo">
+	<table id="kategori" border="1" cellspacing="0" cellpadding="2">
+	<tr>
+		<td>Land, Produktionsort</td>
+		<td>Kategori</td>
+		<td>Produkt</td>
+		<td>Certifiering</td>
+		<td>Riskpoäng produktsäkerhet</td>
+		<td>Riskpoäng CoC</td>
+		<td>Senaste revision produktsäkerhet</td>
+		<td>Antal avvikelser produktsäkerhet</td>
+		<td>Senaste revision CoC</td>
+		<td>Antal avvikelser CoC</td>
+		<td>Kommande revision CoC</td>
+		<td>Kommande revision produktsäkerhet</td>
+		<td>Hanteras av</td>
+		<td>Leverantör sedan</td>
+	</tr>
+	<tr>
+		<td>DE, Berlin</td>
+		<td>Juice</td>
+		<td>Äppel- och apelsinjuice</td>
+		<td>IFS</td>
+		<td>8</td>
+		<td>9</td>
+		<td>2012</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>2013</td>
+		<td>CT</td>
+		<td>-</td>
+	</tr>
+</div>
+</div>
+
+<!-- <div> -->
+<script>
+// 	$(document).ready(function(){
+// 		$('#barnproffsetinfo').hide();
+// 		$('p').click(function() {
+// 			$('#barnproffsetinfo').toggle();
+// 		});
+// 	});
+
+// </script>
+
+
+
+<!-- <div id="barnproffset" class="inaktiv">
+	<h2 class="levnamn">Barnproffset</h2> <p>+</p>
+</div>
+
+<div id="barnproffinfo">
+	<table id="kategori" border="1" cellspacing="0" cellpadding="2">
+	<tr>
+		<td>Land, Produktionsort</td>
+		<td>Kategori</td>
+		<td>Produkt</td>
+		<td>Certifiering</td>
+		<td>Riskpoäng produktsäkerhet</td>
+		<td>Riskpoäng CoC</td>
+		<td>Senaste revision produktsäkerhet</td>
+		<td>Antal avvikelser produktsäkerhet</td>
+		<td>Senaste revision CoC</td>
+		<td>Antal avvikelser CoC</td>
+		<td>Kommande revision CoC</td>
+		<td>Kommande revision produktsäkerhet</td>
+		<td>Hanteras av</td>
+		<td>Leverantör sedan</td>
+	</tr>
+	<tr>
+		<td>DE, Berlin</td>
+		<td>Juice</td>
+		<td>Äppel- och apelsinjuice</td>
+		<td>IFS</td>
+		<td>8</td>
+		<td>9</td>
+		<td>2012</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>2013</td>
+		<td>CT</td>
+		<td>-</td>
+	</tr>
+</div>
+</div> -->
+<!-- <div id="Olivers oliver" class="utgar">
+	<h2 class="levnamn">Olivers oliver</h2>
+</div> -->
 	
 </body>
 </html>
