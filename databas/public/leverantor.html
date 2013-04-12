@@ -29,20 +29,29 @@
 
 <div>
  <script>
- 	$(document).ready(function(){
- 		$('#OJinfo').hide();
- 		$('p').click(function() {
- 			$('#OJinfo').toggle();
- 		});
- 	});
 
+	function dbshowHide(id, button) {
+		if (document.getElementById(id).style.display == "none") {
+			document.getElementById(id).style.display = "inline";
+			document.getElementById(button).innerHTML = "-";
+		}
+		else {
+			document.getElementById(id).style.display = "none";
+			document.getElementById(button).innerHTML = "+";
+
+		}
+
+	}
  </script>
 
 <div id="OJ" class="utgar">
-	<h2 class="levnamn">OJ</h2> <p id="knapp">+</p>
+	<h2 class="levnamn">OJ</h2>
+	<p class="knapp">
+	<a href="#" id="button" class="showLink" onclick="dbshowHide('OJinfo', 'button');return false;" style="text-decoration: none;">+</a>
+	 </p>
 </div>
 
-<div id="OJinfo">
+<div id="OJinfo" class="more" style="display:none;">
 	<table id="kategori" border="1" cellspacing="0" cellpadding="2">
 	<tr>
 		<td>Land, Produktionsort</td>
@@ -76,7 +85,95 @@
 		<td>CT</td>
 		<td>-</td>
 	</tr>
+</table>
 </div>
+
+<div id="barnproffset" class="aktiv">
+	<h2 class="levnamn">Barnproffset</h2>
+	<p class="knapp">
+	<a href="#" id="bp" class="showLink" onclick="dbshowHide('barnproffsetinfo', 'bp');return false;" style="text-decoration: none;">+</a>
+	 </p>
+</div>
+
+<div id="barnproffsetinfo" class="more" style="display:none;">
+	<table id="kategori" border="1" cellspacing="0" cellpadding="2">
+	<tr>
+		<td>Land, Produktionsort</td>
+		<td>Kategori</td>
+		<td>Produkt</td>
+		<td>Certifiering</td>
+		<td>Riskpoäng produktsäkerhet</td>
+		<td>Riskpoäng CoC</td>
+		<td>Senaste revision produktsäkerhet</td>
+		<td>Antal avvikelser produktsäkerhet</td>
+		<td>Senaste revision CoC</td>
+		<td>Antal avvikelser CoC</td>
+		<td>Kommande revision CoC</td>
+		<td>Kommande revision produktsäkerhet</td>
+		<td>Hanteras av</td>
+		<td>Leverantör sedan</td>
+	</tr>
+	<tr>
+		<td>SE, Stockholm</td>
+		<td>Hygienartiklar</td>
+		<td>Blöjor</td>
+		<td>ej aktuell</td>
+		<td>7</td>
+		<td>6</td>
+		<td>-</td>
+		<td>-</td>
+		<td>2011</td>
+		<td>7</td>
+		<td>-</td>
+		<td>2013-2015</td>
+		<td>CT</td>
+		<td>-</td>
+	</tr>
+</table>
+</div>
+
+<div id="riksost" class="inaktiv">
+	<h2 class="levnamn">Riksost</h2>
+	<p class="knapp">
+	<a href="#" id="ro" class="showLink" onclick="dbshowHide('riksostinfo', 'ro');return false;" style="text-decoration: none;">+</a>
+	 </p>
+</div>
+
+<div id="riksostinfo" class="more" style="display:none;">
+	<table id="kategori" border="1" cellspacing="0" cellpadding="2">
+	<tr>
+		<td>Land, Produktionsort</td>
+		<td>Kategori</td>
+		<td>Produkt</td>
+		<td>Certifiering</td>
+		<td>Riskpoäng produktsäkerhet</td>
+		<td>Riskpoäng CoC</td>
+		<td>Senaste revision produktsäkerhet</td>
+		<td>Antal avvikelser produktsäkerhet</td>
+		<td>Senaste revision CoC</td>
+		<td>Antal avvikelser CoC</td>
+		<td>Kommande revision CoC</td>
+		<td>Kommande revision produktsäkerhet</td>
+		<td>Hanteras av</td>
+		<td>Leverantör sedan</td>
+	</tr>
+	<tr>
+		<td>SE, Skövde</td>
+		<td>Mejeri</td>
+		<td>Ost</td>
+		<td>BCR, ISO 22000</td>
+		<td>9</td>
+		<td>9</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td>2013</td>
+		<td>EVM</td>
+		<td>-</td>
+	</tr>
+</table>
 </div>
 	
 </body>
